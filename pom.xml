@@ -22,4 +22,17 @@
         </dependency>
     </dependencies>
 
+    <properties>
+        <start-class>net.woniper.springboot.Application</start-class>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupid>org.springframework.boot</groupid>
+                <artifactid>spring-boot-maven-plugin</artifactid>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
